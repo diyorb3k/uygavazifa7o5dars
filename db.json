@@ -1,0 +1,161 @@
+{
+  "users": [
+    {
+      "id": "de6b",
+      "email": "example@gmail.com",
+      "password": "example"
+    }
+  ],
+  "students": [
+    {
+      "id": "6bef",
+      "firstName": "diyor456",
+      "lastName": "Bekmurodov",
+      "group": "n58",
+      "username": "intro forim",
+      "password": "uyga ishi8"
+    },
+    {
+      "id": "b79b",
+      "firstName": "cvzdcvdxfvs",
+      "lastName": "2dars2oy",
+      "group": "ывфа",
+      "username": "user",
+      "password": "n58"
+    },
+    {
+      "id": "2ef7",
+      "firstName": "Bekmurodov",
+      "lastName": "N58",
+      "group": "@diyorbek_19_03",
+      "username": "diyor456",
+      "password": "Bekmurodov"
+    },
+    {
+      "id": "7dec",
+      "firstName": "n58",
+      "lastName": "intro forim",
+      "group": "uyga ishi8",
+      "username": "1323",
+      "password": "Recomints"
+    },
+    {
+      "id": "f38b",
+      "firstName": "dashboard-site2",
+      "lastName": "wqefrwefw",
+      "group": "fsdgfdfgdf",
+      "username": "dfgdfhgf",
+      "password": "fdfghfhf"
+    },
+    {
+      "id": "6a35",
+      "firstName": "xvdxfgf",
+      "lastName": "vfgbgffb",
+      "group": "cvbcfgbfgb",
+      "username": "cvbcvbnv",
+      "password": "cbcvbnvnv"
+    },
+    {
+      "id": "7da2",
+      "firstName": "cxvdvdvf",
+      "lastName": "sdfgdfg",
+      "group": "gghfghf",
+      "username": "bfbgfgbf",
+      "password": "bfghfcghd"
+    },
+    {
+      "id": "2458",
+      "firstName": "kljdfhewrkf",
+      "lastName": "jgeghrgt",
+      "group": "fofrejtighg",
+      "username": "whrewhe",
+      "password": "jfergthe4th"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "cc30",
+      "firstName": "Diyorbek",
+      "lastName": "Bekmurodov",
+      "level": "Seniors",
+      "groups": "11"
+    },
+    {
+      "id": "0868",
+      "firstName": "Diyorbek",
+      "lastName": "Bekmurodov",
+      "level": "Seniors",
+      "groups": "11"
+    },
+    {
+      "id": "f716",
+      "firstName": "Diyorbek",
+      "lastName": "Bekmurodov",
+      "level": "Seniors",
+      "groups": "11q"
+    },
+    {
+      "id": "0318",
+      "firstName": "Diyorbek",
+      "lastName": "Bekmurodov",
+      "level": "Seniors",
+      "groups": "11"
+    },
+    {
+      "id": "c038",
+      "firstName": "Diyorbek",
+      "lastName": "Bekmurodov",
+      "level": "Seniors",
+      "groups": "11"
+    },
+    {
+      "id": "a2cd",
+      "firstName": "Diyorbek",
+      "lastName": "Bekmurodov",
+      "level": "Juniorm",
+      "groups": "3"
+    },
+    {
+      "id": "28e9",
+      "firstName": "Diyorbek",
+      "lastName": "Bekmurodov",
+      "level": "Seniors",
+      "groups": "3"
+    },
+    {
+      "id": "f1b8",
+      "firstName": "Diyorbek",
+      "lastName": "Bekmurodov",
+      "level": "Seniors",
+      "groups": "11"
+    },
+    {
+      "id": "5029",
+      "firstName": "Diyorbek",
+      "lastName": "Bekmurodov",
+      "level": "Seniors",
+      "groups": "3"
+    },
+    {
+      "id": "d441",
+      "firstName": "Diyorbek",
+      "lastName": "Bekmurodov",
+      "level": "Juniorm",
+      "groups": "3"
+    },
+    {
+      "id": "d552",
+      "firstName": "qap;owjeadsfsfkaldfwsdl;gsd",
+      "lastName": "Bekmurodov",
+      "level": "Seniors",
+      "groups": "3"
+    },
+    {
+      "id": "e7cf",
+      "firstName": "Diyorbek",
+      "lastName": "Bekmurodov",
+      "level": "Juniorm",
+      "groups": "3"
+    }
+  ]
+}
