@@ -38,7 +38,7 @@ const Teachers = () => {
     form.validateFields().then(values => {
       const updatedData = data.map(item => item.id === editingTeacher.id ? { ...item, ...values } : item);
       setData(updatedData);
-      setFilteredData(updatedData); // Filtered data should also be updated
+      setFilteredData(updatedData); 
       setIsEditModalVisible(false);
       setEditingTeacher(null);
 
@@ -55,7 +55,7 @@ const Teachers = () => {
   const handleDelete = (record) => {
     const updatedData = data.filter(item => item.id !== record.id);
     setData(updatedData);
-    setFilteredData(updatedData); // Filtered data should also be updated
+    setFilteredData(updatedData); 
 
     axios.delete(`http://localhost:3000/teachers/${record.id}`)
       .then(response => {
@@ -77,7 +77,7 @@ const Teachers = () => {
         .then(response => {
           const newData = [...data, response.data];
           setData(newData);
-          setFilteredData(newData); // Filtered data should also be updated
+          setFilteredData(newData); 
           setIsAddModalVisible(false);
         })
         .catch(error => {

@@ -70,7 +70,7 @@ const Data = () => {
             position: 'fixed',
             width: `calc(100% - ${collapsed ? 80 : siderWidth}px)`,
             zIndex: 1,
-            top: 0, // Header qismiga top: 0 berildi
+            top: 0, 
           }}
         >
           <Button
@@ -91,7 +91,7 @@ const Data = () => {
             minHeight: 580,
             background: colorBgContainer,
             borderRadius: borderRadiusLG,
-            overflow: 'auto', // Outlet qismiga skroll berish
+            overflow: 'auto',
             height: `calc(100vh - ${headerHeight}px)`,
           }}
         >
