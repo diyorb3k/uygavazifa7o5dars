@@ -10,13 +10,15 @@ const Login = () => {
     form.validateFields().then(values => {
       if (values.username === 'admin' && values.password === 'password') {
         localStorage.setItem('isAuthenticated', 'true');
-        navigate('/');
+        navigate('teacher'); // Ensure the path is correctly spelled
       } else {
         notification.error({
           message: 'Login Failed',
           description: 'Incorrect username or password. Please try again.',
         });
       }
+    }).catch(errorInfo => {
+      console.log('Validation Failed:', errorInfo);
     });
   };
 
@@ -24,8 +26,8 @@ const Login = () => {
     <div style={{ maxWidth: '300px', margin: '100px auto' }}>
       <Form form={form} layout="vertical">
         <Form.Item
-          name="Diyorbek"
-          label=" 20880"
+          name="username"
+          label="Username"
           rules={[{ required: true, message: 'Please input your username!' }]}
         >
           <Input />
@@ -46,3 +48,4 @@ const Login = () => {
 };
 
 export default Login;
+

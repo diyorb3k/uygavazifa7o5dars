@@ -8,20 +8,20 @@
   ],
   "students": [
     {
-      "id": "6bef",
       "firstName": "diyor456",
       "lastName": "Bekmurodov",
       "group": "n58",
       "username": "intro forim",
-      "password": "uyga ishi8"
+      "password": "uyga ishi8",
+      "id": "6bef"
     },
     {
-      "id": "b79b",
       "firstName": "cvzdcvdxfvs",
       "lastName": "2dars2oy",
       "group": "ывфа",
       "username": "user",
-      "password": "n58"
+      "password": "n58",
+      "id": "b79b"
     },
     {
       "id": "2ef7",
@@ -32,20 +32,20 @@
       "password": "Bekmurodov"
     },
     {
-      "id": "7dec",
       "firstName": "n58",
       "lastName": "intro forim",
       "group": "uyga ishi8",
       "username": "1323",
-      "password": "Recomints"
+      "password": "Recomints",
+      "id": "7dec"
     },
     {
-      "id": "f38b",
       "firstName": "dashboard-site2",
       "lastName": "wqefrwefw",
       "group": "fsdgfdfgdf",
       "username": "dfgdfhgf",
-      "password": "fdfghfhf"
+      "password": "fdfghfhf",
+      "id": "f38b"
     },
     {
       "id": "6a35",
@@ -76,22 +76,6 @@
       "firstName": "vmgedfeslkmrf",
       "lastName": ";lfsmgesfkmger",
       "group": "acscsdf",
-      "username": "20880",
-      "password": "1533"
-    },
-    {
-      "id": "ca9b",
-      "firstName": "fdfdsdfsaf",
-      "lastName": "sfsdfsfa",
-      "group": "xbvfcgndhgdegr",
-      "username": "sdewfl3[pr",
-      "password": "1533"
-    },
-    {
-      "id": "4074",
-      "firstName": "Diyorbek",
-      "lastName": "Bekmurodov",
-      "group": "sfgsfd",
       "username": "20880",
       "password": "1533"
     },
@@ -187,6 +171,13 @@
       "firstName": "qap;owjeadsfsfkaldfwsdl;gsd",
       "lastName": "Bekmurodov",
       "level": "Seniors",
+      "groups": "B"
+    },
+    {
+      "id": "41ab",
+      "firstName": "s",
+      "lastName": "s",
+      "level": "ss",
       "groups": "B"
     }
   ]
