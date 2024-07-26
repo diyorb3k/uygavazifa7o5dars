@@ -90,18 +90,18 @@
   ],
   "teachers": [
     {
-      "id": "c038",
       "firstName": "Diyorbek",
       "lastName": "Bekmurodov",
       "level": "Seniors",
-      "groups": "11"
+      "groups": "11",
+      "id": "c038"
     },
     {
-      "id": "a2cd",
       "firstName": "Diyorbek",
       "lastName": "Bekmurodov",
       "level": "Juniorm",
-      "groups": "3"
+      "groups": "3",
+      "id": "a2cd"
     },
     {
       "id": "28e9",
