@@ -1,43 +1,21 @@
+import React, { useEffect } from 'react';
+import { useSelector, useDispatch } from 'react-redux';
 import { Table } from 'antd';
-import axios from 'axios';
-import React, { useEffect, useState } from 'react';
+import { fetchAdminData } from '../actions';
 
 const Admin = () => {
-  const [data, setData] = useState([]);
+  const dispatch = useDispatch();
+  const data = useSelector((state) => state.admin.data);
 
   useEffect(() => {
-    axios.get('http://localhost:3000/users')
-      .then(response => {
-        setData(response.data);
-      })
-      .catch(error => {
-        console.log('error', error);
-      });
-  }, []);
+    dispatch(fetchAdminData());
+  }, [dispatch]);
 
   const columns = [
-    {
-      title: 'ID',
-      dataIndex: 'id',
-      key: 'id',
-    },
-    {
-      title: 'Email',
-      dataIndex: 'email',
-      key: 'email',
-    },
-    {
-      title: 'Password',
-      dataIndex: 'password',
-      key: 'password',
-    },
+    // ...
   ];
 
-  return (
-    <div>
-      <Table dataSource={data} columns={columns} rowKey="id" />
-    </div>
-  );
-}
+  return <Table dataSource={data} columns={columns} rowKey="id" />;
+};
 
 export default Admin;
